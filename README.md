@@ -2,6 +2,9 @@
 
 My name is Vimal S.
 
+![Screenshot (315)](https://user-images.githubusercontent.com/99335637/222664297-293ef067-662a-44e8-b231-4bb3f8454764.png)
+
+
 ## Steps to work with this app
 
 1. You can start the app using ### `npm start`
