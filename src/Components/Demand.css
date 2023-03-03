@@ -1,0 +1,59 @@
+.demand {
+  padding: 2rem;
+  background-color: rgba(243, 136, 68, 0.15);
+}
+
+.demand-card {
+  max-width: 85%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 30px;
+}
+
+.demand-card header {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.demand-card span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.demand-card p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #858585;
+}
+
+.demand-card button {
+  width: 16rem;
+  height: 3.5rem;
+  background: #82b53f;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.demand-card button:hover {
+  background: #528a0a;
+}
+
+/* CSS for mobile devices */
+@media screen and (width < 583px) {
+  .demand img {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .demand-card button {
+    width: 10rem;
+  }
+
+  .demand-card {
+    text-align: center;
+  }
+}

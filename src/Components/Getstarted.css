@@ -1,0 +1,43 @@
+.getStarted {
+  margin-top: 60vh;
+  margin-bottom: 4rem;
+}
+
+.getStarted header {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+  color: #2a2a2a;
+}
+
+.getStarted-sub-heading {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #6a6a6a;
+}
+
+.getStarted picture {
+  display: flex;
+  justify-content: center;
+}
+
+/* CSS for mobile devices */
+
+@media screen and (width < 583px) {
+  .getStarted {
+    margin-top: 150vh;
+  }
+
+  .getStarted picture img {
+    width: 95%;
+    height: 20rem;
+  }
+}
+
+@media screen and (width <= 900px) {
+  .getStarted {
+    margin-top: 140vh;
+  }
+}

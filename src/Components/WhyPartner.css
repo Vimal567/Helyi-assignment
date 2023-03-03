@@ -1,0 +1,186 @@
+.whyPartner {
+  position: relative;
+  padding-top: 2rem;
+  background: linear-gradient(
+    180deg,
+    rgba(248, 140, 71, 0.16) 0%,
+    rgba(255, 255, 255, 0) 103.62%
+  );
+  height: 100vh;
+}
+
+.whyPartner header {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.whyPartner-sub-heading {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 25px;
+  text-align: center;
+  color: #6a6a6a;
+}
+
+.whyPartner-details {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  height: 10vh;
+}
+
+.whyPartner-details-box {
+  width: 161px;
+  height: 161px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.whyPartner-details-box img {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.whyPartner-details-box:nth-child(1) {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+}
+
+.whyPartner-details-box:nth-child(2) {
+  position: absolute;
+  left: 44%;
+  top: 32%;
+}
+
+.whyPartner-details-box:nth-child(3) {
+  position: absolute;
+  left: 73%;
+  top: 25%;
+}
+
+.whyPartner-details-box:nth-child(4) {
+  position: absolute;
+  left: 15%;
+  top: 65%;
+}
+
+.whyPartner-details-box:nth-child(5) {
+  position: absolute;
+  left: 44%;
+  top: 72%;
+}
+
+.whyPartner-details-box:nth-child(6) {
+  position: absolute;
+  left: 73%;
+  top: 65%;
+}
+
+.whyPartner-getinTouch-section {
+  position: absolute;
+  left: 0%;
+  top: 100%;
+}
+
+.whyPartner-getinTouch-container-one {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.whyPartner-getinTouch-container-two {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.whyPartner-getinTouch-card {
+  width: 30rem;
+  height: 25rem;
+  background: #f8f8f8;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.whyPartner-getinTouch-card div:nth-child(1) {
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+  color: #2a2a2a;
+}
+
+.whyPartner-getinTouch-card div:nth-child(2) {
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 5rem;
+  color: #9d9b9a;
+}
+
+.whyPartner-getinTouch-card button {
+  width: 285px;
+  height: 54px;
+  background: #82b53f;
+  border-radius: 5px;
+  border: none;
+}
+
+.whyPartner-getinTouch-card button:hover {
+  background: #4f7719;
+}
+
+/* CSS for mobile devices */
+
+@media screen and (width < 583px) {
+  .whyPartner {
+    height: 200vh;
+  }
+
+  .whyPartner-details-box:nth-child(1) {
+    position: relative;
+    left: 30%;
+  }
+
+  .whyPartner-details-box:nth-child(2) {
+    position: relative;
+    left: 30%;
+  }
+
+  .whyPartner-details-box:nth-child(3) {
+    position: relative;
+    left: 30%;
+  }
+
+  .whyPartner-details-box:nth-child(4) {
+    position: relative;
+    left: 30%;
+  }
+
+  .whyPartner-details-box:nth-child(5) {
+    position: relative;
+    left: 30%;
+  }
+
+  .whyPartner-details-box:nth-child(6) {
+    position: relative;
+    left: 30%;
+  }
+}
+
+@media screen and (width <= 900px) {
+  .whyPartner-getinTouch-container-one {
+    display: flex;
+    justify-content: center;
+  }
+
+  .whyPartner-getinTouch-container-two {
+    display: flex;
+    justify-content: center;
+  }
+}
